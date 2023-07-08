@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+a{
+    text-emphasis: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background: rgba(173, 216, 230, 0.36);
+}
+.tabs input{
+    display: none;
+}
+
+#all:checked ~.pizza,
+#all:checked ~.burger,
+#all:checked ~.kuurdak,
+#all:checked ~.plof,
+#all:checked ~.cok,
+#all:checked ~.coca-cola{
+    opacity: 1;
+    transition:.4s;
+}
+#pizza:checked ~.burger,
+#pizza:checked ~.kuurdak,
+#pizza:checked ~.plof,
+#pizza:checked ~.cok,
+#pizza:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+#burger:checked ~.pizza,
+#burger:checked ~.kuurdak,
+#burger:checked ~.plof,
+#burger:checked ~.cok,
+#burger:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+#kuurdak:checked ~.pizza,
+#kuurdak:checked ~.burger,
+#kuurdak:checked ~.plof,
+#kuurdak:checked ~.cok,
+#kuurdak:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+
+#plof:checked ~.pizza,
+#plof:checked ~.burger,
+#plof:checked ~.kuurdak,
+#plof:checked ~.cok,
+#plof:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+#kuurdak:checked ~.pizza,
+#kuurdak:checked ~.burger,
+#kuurdak:checked ~.plof,
+#kuurdak:checked ~.cok,
+#kuurdak:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+#cok:checked ~.pizza,
+#cok:checked ~.burger,
+#cok:checked ~.kuurdak,
+#cok:checked ~.plof,
+#cok:checked ~.coca-cola{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+
+#coca-cola:checked ~.pizza,
+#coca-cola:checked ~.burger,
+#coca-cola:checked ~.kuurdak,
+#coca-cola:checked ~.plof,
+#coca-cola:checked ~.cok{
+    opacity: 0.5;
+    transition:.4s;
+}
+
+.hero-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-logo {
+    background: rgba(6, 131, 220, 0.15);
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin-bottom: 100px;
+}
+
+
+.hero-logo label {
+    font-weight: 900;
+    background: linear-gradient(#fc4d96, rgb(206, 190, 14), rgb(236, 15, 40), rgba(25, 25, 25, 0.6));
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+/*BLOCK*/
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block img {
+    width: 230px;
+    height: 180px;
+    background:linear-gradient(cyan, rgba(255, 0, 0, 0.55), #0683dc,wheat);
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+}
